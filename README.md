@@ -4,7 +4,7 @@ Provides the function needed for preparing and sending metrics to InfluxDB
 
 ## **NOTE**
 
-Your `settings.py` must contain a line such as `CLOUDCIX_INFLUX_DATABASE = 'stage_membership'` to define which InfluxDB Database the metrics get posted to
+Your `settings.py` must contain a line such as `CLOUDCIX_INFLUX_DATABASE = 'cloudcix_membership'` to define which InfluxDB Database the metrics get posted to
 
 ## Installation
 
