@@ -10,11 +10,11 @@ Your `settings.py` must contain a line such as `CLOUDCIX_INFLUX_DATABASE = 'stag
 
 Add the following to your `requirements.txt`
 
-`git+https://gitlab.cloudcix.com/CloudCIX/cloudcix_metrics`
+`git+https://github.com/CloudCIX/metrics.git`
 
 ## Usage
 
-3 settings are needed in `settings.py`:
+Three settings are needed in `settings.py`:
 
 - CLOUDCIX_INFLUX_URL
   - the url of the InfluxDB server
@@ -42,7 +42,7 @@ CLOUDCIX_INFLUX_URL = 'influx.cloudcix.com'
 CLOUDCIX_INFLUX_PORT = 80
 CLOUDCIX_INFLUX_DATABSE = 'cloudcix_metrics'
 CLOUDCIX_INFLUX_TAGS = {
-    'service_name': 'stage_membership',
+    'service_name': 'cloudcix_membership',
 }
 
 
